@@ -72,6 +72,15 @@ public class App {
         ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
         App application = ctx.getBean(App.class);
         application.run();
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     
     // testejä debugatessa saattaa olla hyödyllistä testata ohjelman ajamista
