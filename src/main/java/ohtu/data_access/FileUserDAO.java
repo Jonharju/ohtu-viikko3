@@ -33,7 +33,7 @@ public class FileUserDAO implements UserDao{
         } catch (FileNotFoundException e) {
             System.out.println("Tiedostoa ei löytynyt");
         }
-       scan();
+        scan();
     }
     
     private void scan(){
